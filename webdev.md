@@ -8,4 +8,9 @@
 * VSCode Installation
 * HTML
 * CSS
-### 1.2 | Basics of Javascript (4th Aug, 2024)[🔗]()[🎥]()[📝]()
+### 1.2 | Basics of Javascript (4th Aug, 2024)[🔗](https://projects.100xdevs.com/tracks/javascript-1/Javascript-101-1)[🎥](https://app.100xdevs.com/courses/14/411/421)[📝]()
+* Did you code yesterday ?
+* Javascript - The basics
+* Properties of JS
+* Syntax of Javascript
+* Complex types
