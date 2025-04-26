@@ -14,3 +14,14 @@
 * Properties of JS
 * Syntax of Javascript
 * Complex types
+## Week 2 - Async JS
+### 1.1 | Async JS (11th Aug 2024) [🔗](https://projects.100xdevs.com/tracks/async-js-1/Asynchronous-Javascript--Callbacks-and-more-1)[🎥](https://app.100xdevs.com/courses/14/430/431)[📝](https://github.com/sansela/cohort3/tree/master/webdev/week-2)
+1. Introduction
+2. Normal functions in JS
+3. Synchronous code
+4. I/O heavy operations
+5. I/O bound tasks vs CPU bound tasks
+6. Doing I/O bound taks in the real world
+7. Functional Arguements
+8. Asynchronous code, callbacks
+9. JS architecture of async code
