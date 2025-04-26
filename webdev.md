@@ -25,3 +25,14 @@
 7. Functional Arguements
 8. Asynchronous code, callbacks
 9. JS architecture of async code
+### Promises [🔗](https://projects.100xdevs.com/tracks/promises-async-await/Promises-and-async--await-1)[🎥](https://app.100xdevs.com/courses/14/430/432)[📝]()
+1. Shoutouts
+2. Classes in JS
+3. Inheritence in Classes
+4. Some more class
+5. Promise class
+6. Callback hell
+7. Async await syntax
+8. Defining your own async function
+9. err first callback function vs reject in Promise
+10. Assignments
