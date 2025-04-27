@@ -31,6 +31,8 @@
 3. Inheritence in Classes
 4. Some more class
 5. Promise class
+## Week 2 - offline videos
+### 5. Callback hell, Rejects and async/await [🔗](https://projects.100xdevs.com/tracks/promises-async-await/Promises-and-async--await-1)[🎥](https://app.100xdevs.com/courses/14/435/440)[📝]()
 6. Callback hell
 7. Async await syntax
 8. Defining your own async function

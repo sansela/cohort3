@@ -28,37 +28,48 @@
 // console.log(file)
 
 //Promisified version of read file
-const fs = require('fs')
+// const fs = require('fs')
 
-function readFilePromisified(file) {
-    function fileRead(resolve) {
-        let fileContent = fs.readFileSync(file, 'utf-8');
-        console.log(fileContent)
-        resolve()
-    }
-    return new Promise(fileRead)
-}
+// function readFilePromisified(file) {
+//     function fileRead(resolve) {
+//         let fileContent = fs.readFileSync(file, 'utf-8');
+//         console.log(fileContent)
+//         resolve()
+//     }
+//     return new Promise(fileRead)
+// }
 
-function callback() {
-    console.log('File read completed')
-}
+// function callback() {
+//     console.log('File read completed')
+// }
 
-readFilePromisified('a.txt').then(callback);
+// readFilePromisified('a.txt').then(callback);
 
 
 //My own implementation of Promise class
 
-class MyPromise {
-    constructor(fn) {
-        function afterDone() {
-            this.resolve();
-        }
-        fn(afterDone);
-    }
+// class MyPromise {
+//     constructor(fn) {
+//         function afterDone() {
+//             this.resolve();
+//         }
+//         fn(afterDone);
+//     }
 
-    then(callback) {
-        this.resolve = callback
-    }
+//     then(callback) {
+//         this.resolve = callback
+//     }
 
+// }
+
+//setPromisifiedTimeout
+function setPromisifiedTimeout(ms) {
+    return new Promise(function (resolve) {
+        setTimeout(resolve, ms)
+    })
 }
 
+function callback() {
+    console.log("5 seconds has passed");
+}
+setPromisifiedTimeout(5000).then(callback);
