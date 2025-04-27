@@ -14,6 +14,11 @@
 * Properties of JS
 * Syntax of Javascript
 * Complex types
+## Cohort 2 Warm up videos
+### Intro, Setting up your IDE [🔗](https://slides.com/harkiratsingh-8/deck)[🎥](https://app.100xdevs.com/courses/14/417/418)[📝]()
+### HTML Basics (Tags and Attributes) [🔗](https://slides.com/harkiratsingh-8/deck)[🎥](https://app.100xdevs.com/courses/14/417/419)[📝]()
+### CSS Basics [🔗](https://slides.com/harkiratsingh-8/deck)[🎥](https://app.100xdevs.com/courses/14/417/420)[📝]
+
 ## Week 2 - Async JS
 ### 1.1 | Async JS (11th Aug 2024) [🔗](https://projects.100xdevs.com/tracks/async-js-1/Asynchronous-Javascript--Callbacks-and-more-1)[🎥](https://app.100xdevs.com/courses/14/430/431)[📝](https://github.com/sansela/cohort3/tree/master/webdev/week-2)
 1. Introduction
