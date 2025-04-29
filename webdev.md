@@ -1,3 +1,5 @@
+[![Syllabus](https://img.shields.io/badge/Syllabus-purple)](https://blog.100xdevs.com/Cohort-3-0-322ac9e00cb248f090fffe05047de99f) [![Notes](https://img.shields.io/badge/Notes-pink)](https://github.com/irohandev/WebDev-DevOps-Cohort-3.0/tree/main) [![Cournal](https://img.shields.io/badge/Cournal-blue)](https://salmoneatenbybear.github.io/Cohort_3.0_Cournal_x/) [![Slides](https://img.shields.io/badge/Slides-yellow)](https://projects.100xdevs.com/) [![Videos](https://img.shields.io/badge/Videos-red)](https://app.100xdevs.com/) [![Screenshots](https://img.shields.io/badge/Screenshots-green)](https://onedrive.live.com/edit.aspx?resid=7834942D87BA5DD4!sbf2f5968162d4257b8e410e5571dbcb1&migratedtospo=true&wd=target%28Quick%20Notes.one%7C10ea23ac-8618-4302-9d1f-00f88c7eb30e%2FWeb3%201.1%20-%20Orientation%20%28Part%201%5C%29%7C4981e434-283d-418f-938e-f289ce631953%2F%29&wdorigin=NavigationUrl) [![Assignments](https://img.shields.io/badge/Assignments-grey)](https://github.com/100xdevs-cohort-3) [![Discord](https://img.shields.io/badge/Discord-orange)](https://discord.com/channels/1263912990160457738/1266454379439980595)
+
 ## Week 1 - Orientation, HTML/CSS/Basic JS
 ### 1.1 | Web Dev + Devops Orientation - [🔗](https://petal-estimate-4e9.notion.site/Orientation-703d935ef4564fe1bc61e60e83f4c409) [🎥](https://app.100xdevs.com/courses/14/411/412) [📝](https://github.com/sansela/cohort3/tree/master/webdev/week-1/html-css-basics)
 * Web Dev + Devops Cohort by 100xDevs
@@ -119,9 +121,28 @@
 * awk -F "," '{print $1 $2}' log.txt - delimiter is , instead of default space delimiter
 * awk '{count[$2]++} END {print count["ERROR"]}' log.txt - count occurrences of ERROR in column 2
 * awk '{ if ($1 > 1598863888) {print $0}}' log.txt - pull logs after a specific timestamp
+### 3. Installing Node.js and how to solve assignment [🔗](https://petal-estimate-4e9.notion.site/Installing-node-Solving-assignments-3dfb37111f9e48ca80caac66dbe97331?pvs=74)[🎥](https://app.100xdevs.com/courses/14/435/438)[📝]()
+* Installing Node.js
+* Using Node.js to do assignments
+* Easy JS assignments for week 2
+* Medium JS Assignments for week 2
+* Hard-JS-Assignments
+* Easy-Async-assignment
+* Medium-async
+### 4. Solving vs code assignment [🔗]()[🎥](https://app.100xdevs.com/courses/14/435/439)[📝]()
 ### 5. Callback hell, Rejects and async/await [🔗](https://projects.100xdevs.com/tracks/promises-async-await/Promises-and-async--await-1)[🎥](https://app.100xdevs.com/courses/14/435/440)[📝](https://github.com/sansela/cohort3/tree/master/webdev/week-2-offline/callbackhell-rejects-asyncawait)
 6. Callback hell
 7. Async await syntax
 8. Defining your own async function
 9. err first callback function vs reject in Promise
 10. Assignments
+## Week 3 | DOM
+### 3.1 | DOM (Simple) [🔗](https://projects.100xdevs.com/tracks/dom-1/Basics-of-DOM-1)[🎥](https://app.100xdevs.com/courses/14/446/447)[📝](https://github.com/sansela/cohort3/tree/master/webdev/week-3/simple-dom)
+1. What is DOM
+2. Static HTML
+3. Dynamic HTML
+4. Fetching elements
+5. Updating elements
+6. Deleting elements
+7. Adding elements
+8. More complex elements

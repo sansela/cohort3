@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Simple DOM</title>
+</head>
+
+<body>
+    <h1>Todo list</h1>
+    <div id="todo1" style="display: flex;">
+        <h4 class="todo1">1. Take class</h4>
+        <button onclick="destroy(1)">Delete</button>
+    </div>
+    <div id="todo2" style="display: flex;">
+        <h4>2. Go out to eat</h4>
+        <button onclick="destroy(2)">Delete</button>
+    </div>
+    <div id="todo3" style="display: flex;">
+        <h4>3. Go out to Gym</h4>
+        <button onclick="destroy(3)">Delete</button>
+    </div>
+    <div style="display: flex;">
+        <input type="text"></input>
+        <button onclick="addTodo()">Add Todo</button>
+    </div>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
