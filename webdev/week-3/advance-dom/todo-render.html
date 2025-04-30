@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO render</title>
+</head>
+
+<body>
+    <input type="text">
+    <button onclick="addTodo()">Add TODO</button>
+    <div id="todolist"></div>
+    <script>
+        let todos = [];
+        function addTodo() {
+            const todo = document.querySelector("input").value
+            todos.push({ title: todo })
+            render()
+        }
+        function render() {
+            document.getElementById("todolist").innerHTML = ""
+            todos.forEach((todo, index) => {
+                const spanEl = document.createElement("span")
+                spanEl.innerHTML = todo.title;
+
+                const deleteEl = document.createElement("button");
+                deleteEl.innerHTML = "Delete"
+                deleteEl.setAttribute("onclick", "deleteTodo('" + index + "')");
+
+                const divEl = document.createElement("div");
+                divEl.setAttribute("id", "todo-" + index)
+                divEl.appendChild(spanEl);
+                divEl.appendChild(deleteEl);
+
+                document.querySelector("#todolist").appendChild(divEl)
+            })
+        }
+
+        function deleteTodo(index) {
+            todos.splice(index, 1)
+            render()
+        }
+    </script>
+</body>
+
+</html>

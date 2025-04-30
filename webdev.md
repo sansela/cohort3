@@ -146,3 +146,12 @@
 6. Deleting elements
 7. Adding elements
 8. More complex elements
+### 3.2 | DOM (Advance) [🔗](https://projects.100xdevs.com/tracks/dom-2/DOM-Part-2--1)[🎥](https://app.100xdevs.com/courses/14/446/449)[📝](https://github.com/sansela/cohort3/tree/master/webdev/week-3/advance-dom)
+1. Context for today
+2. Complex DOM manipulation
+3. Finishing the todo app-2
+4. TODO app
+5. State derived frontends
+6. State derived rendering
+7. Add TODO functionality
+8. Delete functionality
