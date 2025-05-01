@@ -185,4 +185,4 @@
 ## Week-4-offline
 ### Express and HTTP server | Postman[🔗](https://100x-b-mcdn.akamai.net.in/cohort-2-slides/express2.pdf)[🎥](https://app.100xdevs.com/courses/14/452/453)[📝]()
 
-### Middleware[🔗]()[🎥](https://app.100xdevs.com/courses/14/452/457)[📝]()
+### Middleware[🔗](https://bold-flax-21a.notion.site/Middleware-via-examples-1a125f71564980b8844ac8fb632b954a)[🎥](https://app.100xdevs.com/courses/14/452/457)[📝]()
