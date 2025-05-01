@@ -155,3 +155,14 @@
 6. State derived rendering
 7. Add TODO functionality
 8. Delete functionality
+## Week 4 | Node.js and HTTP
+### 4.1 Node.js, Bun and JS runtimes [🔗](https://petal-estimate-4e9.notion.site/Node-js-Bun-and-JS-runtimes-a09a41ccd61c4f498e55750c9a1c9b34)[🎥](https://app.100xdevs.com/courses/14/450/451)[📝](https://github.com/sansela/cohort3/tree/master/webdev/week-4/node-bun-js-runtimes)
+* What is Node.js?
+* What is Bun?
+* Starting a Node.js project
+* npm
+* Internal Packages
+* External Packages
+* package-lock.json
+* Assignment #1 - Create a CLI
+* Assignment #2
