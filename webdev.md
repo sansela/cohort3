@@ -166,3 +166,21 @@
 * package-lock.json
 * Assignment #1 - Create a CLI
 * Assignment #2
+### 4.2 HTTP Servers [🔗](https://petal-estimate-4e9.notion.site/Intro-to-HTTP-26c5803f153b4401aa76e9fac08ac427)[🎥](https://app.100xdevs.com/courses/14/450/454)[📝](https://github.com/sansela/cohort3/tree/master/webdev/week-4/http-servers)
+* Context
+* Why the HTTP Protocol?
+* Request Response model
+* Domain name/ IP
+* Ports
+* Methods
+* Response
+* Status Code
+* Body
+* Routes
+* Headers
+* Do we understand the following now?
+* Clients (Postman/Curl/Browser)
+* Writing HTTP code in js
+* New Page
+## Week-4-offline
+### Express and HTTP server | Postman[🔗](https://100x-b-mcdn.akamai.net.in/cohort-2-slides/express2.pdf)[🎥](https://app.100xdevs.com/courses/14/452/453)[📝](https://github.com/sansela/cohort3/tree/master/webdev/week-4-offline/express-http-server)
