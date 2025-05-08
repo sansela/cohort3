@@ -186,3 +186,15 @@
 ### Express and HTTP server | Postman[🔗](https://100x-b-mcdn.akamai.net.in/cohort-2-slides/express2.pdf)[🎥](https://app.100xdevs.com/courses/14/452/453)[📝](https://github.com/sansela/cohort3/tree/master/webdev/week-4-offline/)
 
 ### Middleware[🔗](https://bold-flax-21a.notion.site/Middleware-via-examples-1a125f71564980b8844ac8fb632b954a)[🎥](https://app.100xdevs.com/courses/14/452/457)[📝](https://github.com/sansela/cohort3/tree/master/webdev/week-4-offline/)
+## Week-5
+### 5.1 Headers, Query Params and Express[🔗](https://petal-estimate-4e9.notion.site/HTTP-Deep-dive-d59b6336fa5a46daa56c21063578d400?pvs=74)[🎥](https://app.100xdevs.com/courses/14/466/467)[📝](https://github.com/sansela/cohort3/tree/master/webdev/week-5/headers-queryparams-express/)
+### 5.2| Middlewares and Cors[🔗](https://petal-estimate-4e9.notion.site/HTTP-Deep-dive-d59b6336fa5a46daa56c21063578d400?pvs=74)[🎥](https://app.100xdevs.com/courses/14/466/468)[📝](https://github.com/sansela/cohort3/tree/master/webdev/week-5/middlewares-cors/)
+* Recap
+* Headers
+* Fetch API
+* Create an HTTP server
+* Middlewares
+* Route specific middlewares
+* Assignments on middlewares
+* Commonly used middlewares
+* cors- Cross origion resource sharing
