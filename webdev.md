@@ -198,3 +198,6 @@
 * Assignments on middlewares
 * Commonly used middlewares
 * cors- Cross origion resource sharing
+## Week-5-offline
+### Map, Filter and Arrow fns [🔗]()[🎥](https://app.100xdevs.com/courses/14/475/477)[📝](https://github.com/sansela/cohort3/tree/master/webdev/week-5-offline/maps-filters-arrowfns/)
+### Axios vs Fetch [🔗]()[🎥](https://app.100xdevs.com/courses/14/475/478)[📝](https://github.com/sansela/cohort3/tree/master/webdev/week-5-offline/axios-fetch/)
