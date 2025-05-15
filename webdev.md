@@ -267,3 +267,19 @@
   - Fixes #issue-number
   - Closes #issue-number
   - Resolves #issue-number
+
+## Week-6
+
+### 6.1 | Authentication [🔗](https://petal-estimate-4e9.notion.site/Authentincation-a4b43c7cc1d14535a7b5b366080095fa)[🎥](https://app.100xdevs.com/courses/14/482/483)[📝](https://github.com/sansela/cohort3/tree/master/webdev/week-6/http-deep-dive/)
+
+- Context
+- Auth workflow(Bank example)
+- Auth workflow
+- Creating an express app
+- Tokens vs JWTs
+- JWTs
+- Replace token logic with jwt
+- JWTs can be Decoded by anyonne
+- Assignment: Creating an auth middleware
+- Writing the frontend for it
+- Assignment: Creating a TODO app
