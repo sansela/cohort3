@@ -283,3 +283,11 @@
 - Assignment: Creating an auth middleware
 - Writing the frontend for it
 - Assignment: Creating a TODO app
+
+### Auth and connecting FE to BE [🔗](https://petal-estimate-4e9.notion.site/Authentincation-a4b43c7cc1d14535a7b5b366080095fa)[🎥](https://app.100xdevs.com/courses/14/482/484)[📝](https://github.com/sansela/cohort3/tree/master/webdev/week-6/jwt-fe-be/)
+
+## Week 6- offline
+
+### JWT auth and recap [🔗]()[🎥](https://app.100xdevs.com/courses/14/487/488)[📝]()
+
+### Mongo Installation [🔗]()[🎥](https://app.100xdevs.com/courses/14/487/489)[📝]()
