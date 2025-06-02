@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JWT Auth</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div>
+        <input type="text" name="signup-username" id="signup-username" placeholder="user name">
+        <input type="password" name="signup-password" id="signup-password" placeholder="password">
+        <button onclick="signup()">Sign up</button>
+    </div>
+    <br>
+    <div>
+        <input type="text" name="signin-username" id="signin-username" placeholder="user name">
+        <input type="password" name="signin-password" id="signin-password" placeholder="password">
+        <button onclick="signin()">Sign in</button>
+    </div>
+    <br>
+    <div id="user-details"></div>
+    <br>
+    <button>Log out</button>
+    <script>
+        async function signup() {
+            const username = document.getElementById('signup-username').value
+            const password = document.getElementById('signup-password').value
+            const response = await axios.post('/signup', {
+                username: username,
+                password: password
+            })
+            document.getElementById('user-details').innerHTML = response.data.message
+        }
+
+        async function signin() {
+            const username = document.getElementById('signin-username').value
+            const password = document.getElementById('signin-password').value
+            const response = await axios.post('/signin', {
+                username: username,
+                password: password
+            })
+            const token = response.data.token
+            if (token) {
+                document.getElementById('user-details').innerHTML = 'User Signed in successful.'
+                localStorage.setItem("token", token)
+                await me()
+            } else {
+                document.getElementById('user-details').innerHTML = 'Login Failure'
+            }
+        }
+
+        async function me() {
+            const token = localStorage.getItem("token")
+            console.log(token)
+            const response = await axios.get('/me', {
+                headers: {
+                    'Authorization': token
+                }
+            })
+            document.getElementById('user-details').innerHTML = 'The user\'s password: ' + response.data.password
+            console.log(response.data)
+        }
+        me()
+    </script>
+</body>
+
+</html>
