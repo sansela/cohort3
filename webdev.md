@@ -291,3 +291,21 @@
 ### JWT auth and recap [🔗]()[🎥](https://app.100xdevs.com/courses/14/487/488)[📝]()
 
 ### Mongo Installation [🔗]()[🎥](https://app.100xdevs.com/courses/14/487/489)[📝]()
+
+## Week 7 - MongoDB
+
+### 7.1 | MongoDB
+
+- Context
+- What are Databases
+- MongoDB and NoSQL databases
+- Creating free MongoDB server
+- Seeding data in the DB
+- CRUD operations
+- Creating the backend of a TODO app
+- Testing your app
+- Improvements
+- Hashing password
+- Error handling
+- Input validation
+- Relationships in Mongo
